@@ -1,0 +1,50 @@
+body{
+   background-color: rgb(251, 165, 6);
+}
+#titulo{
+    text-align: center;
+    border-radius: 10px;
+    margin: 200px 80px 100px 80px ;
+    padding: 20px;
+    color: rgb(91, 0, 144);
+    font-size: 50px;
+}
+#digite{
+    color: rgb(255, 255, 255); 
+}
+#numero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(91, 0, 144);
+    padding: 50px;
+    border-radius: 10px;
+    margin: 80px;
+}
+#romanos_number{
+   margin:10px 100px;
+   text-align: center;
+   height: 30px;
+}
+#romanos{
+    margin:10px 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(63, 0, 100);;
+
+}
+#respuesta{
+ color: rgb(254, 255, 254);
+ font-size: 20px;
+}
+@media (max-width: 700px){
+    #romanos_number, #romanos{
+        margin: 0px;
+    }
+    #titulo{
+        font-size: 20px;
+        margin-top: 50px;
+    } 
+    #romanos_number{
+        height: 10px;
+    }
+}
